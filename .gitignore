@@ -1,0 +1,4 @@
+LICENSE.txt
+
+# Ignore Terraform provider binaries
+terraform-provider-*
