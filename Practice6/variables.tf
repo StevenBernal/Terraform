@@ -17,3 +17,8 @@ variable "subnets" {
   description = "Subnets list"
   type = list(string)
 }
+
+variable "tags" {
+  description = "Tags for project"
+  type = map(string)
+}
