@@ -1,0 +1,28 @@
+Comandos Terraform
+
+terraform init
+# Inicializa un directorio de trabajo que contiene archivos de configuración de Terraform
+
+terraform plan
+# Genera y muestra un plan de ejecución comparando el estado actual con la configuración deseada
+
+terraform apply
+# Aplica los cambios necesarios para alcanzar el estado deseado según la configuración
+
+terraform destroy
+# Elimina todos los recursos gestionados por la configuración de Terraform
+
+terraform show
+# Muestra el estado actual de la infraestructura o el resultado de un plan de ejecución
+
+terraform validate
+# Verifica que los archivos de configuración de Terraform son sintácticamente válidos y coherentes
+
+terraform fmt
+# Formatea los archivos de configuración de Terraform para seguir un estilo estándar
+
+terraform state
+# Gestiona el estado de Terraform con varios subcomandos
+
+terraform output
+# Muestra las salidas definidas en la configuración de Terraform
