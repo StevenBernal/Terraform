@@ -9,3 +9,4 @@ tags = {
   "cloud" = "AWS"
 }
 
+sg_ingress_cidr = "0.0.0.0/0"
